@@ -11,8 +11,8 @@
 		<!-- Header -->
 			<header id="header">
 				<div class="inner">
-					<a href="#" class="image avatar"><img src="images/avatar.jpg" alt="" /></a>
-					<h1><strong>Hi!</strong> I'm Asher, <p>a <strong>software engineer</strong> specializing in back-end architecture and design.</p></h1>
+					<a href="#" class="image avatar"><img src="images/portfolio_headshot.jpeg" alt="" /></a>
+					<h1><strong>Hi! I'm Asher Garvens,</strong> <p><strong>a software engineer specializing in back-end architecture and design.</strong></p></h1>
 				</div>
 			</header>
 
@@ -24,7 +24,7 @@
 						<header class="major">
 							<h2>About me</h2>
 						</header>
-						<p class="about-me">I am a rising junior at Washington Universtiy in St. Louis and aspiring to be a software engineer with a passion for both front-end and back-end development. My front-end expertise lies in React, and I have solid experience working on the back end with multiple frameworks. <br>This summer, I had the incredible opportunity to work at
+						<p class="about-me">I am a rising junior at Washington University in St. Louis and aspiring to be a software engineer with a passion for both front-end and back-end development. My front-end expertise lies in React, and I have solid experience working on the back end with multiple frameworks. <br>This summer, I had the incredible opportunity to work at
 							<a href="https://tech.seo-usa.org/">SEO Tech Developer</a>, where my team and I created a website called <strong>Plan-it</strong> that won the award for Best Overall. I'm excited to continue honing my skills and contributing to innovative projects in the tech world.</p>
 						<ul class="actions">
 							<li><a href="https://github.com/ashergarvens" class="button">View GitHub</a></li>
@@ -37,47 +37,47 @@
 						<div class="row">
 							<article class="col-6 col-12-xsmall work-item">
 								<a href="images/fulls/01.jpg" class="image fit thumb"><img src="images/thumbs/01.jpg" alt="" /></a>
-								<h3>Magna sed consequat tempus</h3>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+								<h3>Plan-it AI Website</h3>
+								<p></p>
 							</article>
 							<article class="col-6 col-12-xsmall work-item">
 								<a href="images/fulls/02.jpg" class="image fit thumb"><img src="images/thumbs/02.jpg" alt="" /></a>
-								<h3>Ultricies lacinia interdum</h3>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+								<h3>Flick Found Website</h3>
+								<p>Collaborated with three others to create a movie recommendation website using Open AI API, TMDB API, and Flask to create the site itself</p>
 							</article>
 							<article class="col-6 col-12-xsmall work-item">
 								<a href="images/fulls/03.jpg" class="image fit thumb"><img src="images/thumbs/03.jpg" alt="" /></a>
-								<h3>Tortor metus commodo</h3>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+								<h3>Link Tree Clone</h3>
+								<p>Full stack application using Django and React. Users can create custom link trees that can be used on external websites.</p>
 							</article>
 							<article class="col-6 col-12-xsmall work-item">
 								<a href="images/fulls/04.jpg" class="image fit thumb"><img src="images/thumbs/04.jpg" alt="" /></a>
-								<h3>Quam neque phasellus</h3>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+								<h3>C++ Mock File System</h3>
+								<p>Collaborated with two classmates to create a mock file system in the terminal primarily to develop OOP skills. Some examples are abstract factory pattern, visitor pattern, and composite pattern. </p>
 							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/05.jpg" class="image fit thumb"><img src="images/thumbs/05.jpg" alt="" /></a>
-								<h3>Nunc enim commodo aliquet</h3>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
-							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/06.jpg" class="image fit thumb"><img src="images/thumbs/06.jpg" alt="" /></a>
-								<h3>Risus ornare lacinia</h3>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
-							</article>
+<!--							<article class="col-6 col-12-xsmall work-item">-->
+<!--								<a href="images/fulls/05.jpg" class="image fit thumb"><img src="images/thumbs/05.jpg" alt="" /></a>-->
+<!--								<h3>Nunc enim commodo aliquet</h3>-->
+<!--								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>-->
+<!--							</article>-->
+<!--							<article class="col-6 col-12-xsmall work-item">-->
+<!--								<a href="images/fulls/06.jpg" class="image fit thumb"><img src="images/thumbs/06.jpg" alt="" /></a>-->
+<!--								<h3>Risus ornare lacinia</h3>-->
+<!--								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>-->
+<!--							</article>-->
 						</div>
 						<ul class="actions">
-							<li><a href="#" class="button">Full Portfolio</a></li>
+							<li><a target="_blank" href="https://github.com/ashergarvens" class="button">Full Portfolio</a></li>
 						</ul>
 					</section>
 
 				<!-- Three -->
 					<section id="three">
 						<h2>Get In Touch</h2>
-						<p>Accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque lorem ipsum dolor.</p>
+						<p>Send me an email, a message on LinkedIn, or use the form below!</p>
 						<div class="row">
 							<div class="col-8 col-12-small">
-								<form method="post" action="#">
+								<form id="contactForm" method="post" action="https://formspree.io/f/mldrbgzo">
 									<div class="row gtr-uniform gtr-50">
 										<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" /></div>
 										<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>
@@ -87,15 +87,17 @@
 								<ul class="actions">
 									<li><input type="submit" value="Send Message" /></li>
 								</ul>
+								<div class="success" id="successMessage" style="display: none;">Your message has been sent!</div>
+            					<div class="error" id="errorMessage" style="display: none;">There was an error sending your message.</div>
 							</div>
 							<div class="col-4 col-12-small">
 								<ul class="labeled-icons">
-									<li>
-										<h3 class="icon solid fa-home"><span class="label">Address</span></h3>
-										Colorado Springs<br />
-										Nashville, TN 00000<br />
-										United States
-									</li>
+<!--									<li>-->
+<!--										<h3 class="icon solid fa-home"><span class="label">Address</span></h3>-->
+<!--										Colorado Springs<br />-->
+<!--										Nashville, TN 00000<br />-->
+<!--										United States-->
+<!--									</li>-->
 									<li>
 										<h3 class="icon solid fa-mobile-alt"><span class="label">Phone</span></h3>
 										719-644-9985
@@ -433,10 +435,10 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<footer id="footer">
 				<div class="inner">
 					<ul class="icons">
-						<li><a href="#" class="icon brands fa-tw"><span class="label">Twitter</span></a></li>
-						<li><a href="https://github.com/ashergarvens" class="icon brands fa-github"><span class="label">Github</span></a></li>
-						<li><a href="https://linkedin.com/in/ashergarvens" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-						<li><a href="mailto:asherjgarvens@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+						<li><a target="_blank" href="#" class="icon brands fa-tw"><span class="label">Twitter</span></a></li>
+						<li><a target="_blank" href="https://github.com/ashergarvens" class="icon brands fa-github"><span class="label">Github</span></a></li>
+						<li><a target="_blank" href="https://linkedin.com/in/ashergarvens" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+						<li><a target="_blank" href="mailto:asherjgarvens@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
 					</ul>
 					<ul class="copyright">
 						<li>&copy; 2024</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
@@ -451,6 +453,32 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script>
+				document.getElementById('contactForm').addEventListener('submit', function(event) {
+					event.preventDefault();
+					var form = event.target;
+					var formData = new FormData(form);
 
+					fetch(form.action, {
+						method: form.method,
+						body: formData,
+						headers: {
+							'Accept': 'application/json'
+						}
+					}).then(response => {
+						if (response.ok) {
+							document.getElementById('successMessage').style.display = 'block';
+							document.getElementById('errorMessage').style.display = 'none';
+							form.reset();
+						} else {
+							document.getElementById('errorMessage').style.display = 'block';
+							document.getElementById('successMessage').style.display = 'none';
+						}
+					}).catch(error => {
+						document.getElementById('errorMessage').style.display = 'block';
+						document.getElementById('successMessage').style.display = 'none';
+					});
+				});
+    		</script>
 	</body>
 </html>
