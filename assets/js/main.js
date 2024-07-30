@@ -115,3 +115,27 @@
 			});
 
 })(jQuery);
+
+$('#contactForm').on('submit', function(event) {
+						event.preventDefault();
+						let $form = $(this);
+
+						// Debugging: Log form data
+						console.log("Form data: ", $form.serialize());
+
+						$.ajax({
+							url: $form.attr('action'),
+							method: $form.attr('method'),
+							data: $form.serialize(),
+							dataType: 'json',
+							success: function(response) {
+								$('#successMessage').show();
+								$('#errorMessage').hide();
+								$form[0].reset();
+							},
+							error: function() {
+								$('#errorMessage').show();
+								$('#successMessage').hide();
+							}
+						});
+					});
